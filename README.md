@@ -20,7 +20,8 @@ Extends the Python requests library by adding additional options for proxy/user 
 2. Instantiate class and pass in parameters for retrieving list of user agents and proxies
 3. Refresh proxies before running any type of requests
 4. request() method returns a dictionary containing a response object, headers and proxy ip used for making the call.
-```from proxy import ProxyRequest
+```
+from proxy import ProxyRequest
 
 proxy_urls_path = 'C/.../*.txt'
 user_agents_path = 'C/.../*.txt'
